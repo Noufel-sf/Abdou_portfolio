@@ -233,6 +233,7 @@ const Hero: React.FC<HeroProps> = memo(({ onNavigate }) => {
               <button
                 className={`relative px-4 py-2 rounded-full text-sm font-semibold transition-all duration-300 flex items-center gap-2 group/item
                 ${"text-cyan-400"}`}
+                 onClick={() => onNavigate("Skills")}
               >
                 <motion.span
                   layoutId="nav-pill"
@@ -246,6 +247,7 @@ const Hero: React.FC<HeroProps> = memo(({ onNavigate }) => {
                 <Mail
                   size={15}
                   strokeWidth={2}
+                  
                   className={`relative z-10 transition-transform duration-300 ${"text-cyan-400 scale-110"}`}
                 />
                 <span
