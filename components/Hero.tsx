@@ -154,7 +154,7 @@ const Hero: React.FC<HeroProps> = memo(({ onNavigate }) => {
               transition={{ duration: 0.8, ease: "easeOut" }}
               className="mb-1 font-display font-bold"
             >
-              Hi, I'm Abdou
+              Hi, I'm Abdulrahman
             </motion.span>
             <motion.div
               initial={{ opacity: 0, filter: "blur(5px)", y: 15 }}
@@ -162,7 +162,7 @@ const Hero: React.FC<HeroProps> = memo(({ onNavigate }) => {
               transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
               className="pt-2 sm:pt-2"
             >
-              <span className="font-display font-bold">A Founder and</span>
+              <span className="font-display font-bold">A student and</span>
               <span className="relative inline-flex items-center">
                 <span className="relative inline-block px-2">
                   <svg
@@ -183,7 +183,7 @@ const Hero: React.FC<HeroProps> = memo(({ onNavigate }) => {
                   </svg>
 
                   <span className="font-designer font-normal text-white relative">
-                    ceo on Brothely Thinking
+                    Entrepreneur
                   </span>
 
                   <span
